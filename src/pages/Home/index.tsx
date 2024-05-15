@@ -50,7 +50,7 @@ export function Home() {
 function InformationCard() {
   return (
     <div className="px-4 py-2">
-      <div>
+      <div className="text-gray-900">
         <div className="font-semibold w-fit text-sm">Contact:</div>
         <div className="flex flex-row gap-2">
           <div className="text-sm">Email:</div>
@@ -69,7 +69,7 @@ function InformationCard() {
 function EmbeddedVideo() {
   return (
     <>
-      <div className="px-4 drop-shadow-xl">
+      <div className="px-4 drop-shadow-xl bg-gray-100">
         <iframe
           src="https://player.vimeo.com/video/935702416?h=11fcff9444"
           style="width:100%;height:100dvh; padding: 5%; "
@@ -86,7 +86,7 @@ function EmbeddedVideo() {
 function VideoInformationCard() {
   return (
     <>
-      <div className="p-4 py-2 flex flex-row gap-[3px] text-sm">
+      <div className="p-4 py-2 flex flex-row gap-[3px] text-sm text-gray-900">
         <a className="underline font-semibold" href="https://vimeo.com/935702416">Video Reel 2024</a> by
         <a className="font-semibold" href="https://vimeo.com/user93238606">George Rump</a>
       </div>

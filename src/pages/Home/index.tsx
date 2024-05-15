@@ -72,7 +72,7 @@ function EmbeddedVideo() {
       <div className="px-4 drop-shadow-xl bg-gray-100">
         <iframe
           src="https://player.vimeo.com/video/935702416?h=11fcff9444"
-          style="width:100%;height:100dvh; padding: 5%; "
+          style="width:100%;height:100dvh; padding: 5%; background-color: #; "
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen={true}

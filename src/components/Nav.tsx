@@ -4,7 +4,6 @@ import {ArchiveNav} from './subcomponents/ArchiveNav';
 
 const Nav = () => {
   const location = useLocation()
-  console.log(location);
 
   return (
     <>

@@ -11,7 +11,7 @@ const EmbeddedVideo = () => {
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowFullScreen={true}
                 ></iframe>
-                <div className="w-fit pt-[40px]">Text about video</div>
+                {/* <div className="w-fit pt-[40px]">Text about video</div> */}
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
         </>

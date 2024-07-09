@@ -7,7 +7,7 @@ export function ArchivePage() {
       <div class="flex flex-col md:flex-row lg:flex-row h-full">
 
         <Nav />
-        <div class="flex flex-col justify-between items-center h-1/2 md:h-full lg:h-full lg:w-full" >
+        <div class="flex flex-col justify-between items-center h-1/2 md:h-full lg:h-full w-full" >
           <span></span>
           <div class="flex flex-col">
           <div>www.GeorgePeat.com</div>
